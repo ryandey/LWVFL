@@ -16,7 +16,7 @@ const data = [
 const MembersGraph = () => {
   return (
     <ResponsiveContainer width='100%' height='100%'>
-      <AreaChart width={200} height={60} data={data} margin={{ top: 10, right: 0, left: 0, bottom: 0, }}>
+      <AreaChart width={200} height={60} data={data} margin={{ top: 10, right: 10, left: 0, bottom: 0, }}>
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
